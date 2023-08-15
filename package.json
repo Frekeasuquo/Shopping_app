@@ -13,6 +13,8 @@
     "@types/node": "^20.4.9",
     "@types/react": "^18.2.19",
     "@types/react-dom": "^18.2.7",
+    "@types/styled-components": "^5.1.26",
+    "babel-plugin-macros": "^3.1.0",
     "dotenv": "^16.3.1",
     "firebase": "^9.10.0",
     "react": "^18.2.0",
@@ -29,6 +31,7 @@
     "sass": "^1.54.9",
     "stripe": "^12.16.0",
     "styled-components": "^5.3.6",
+    "typed-redux-saga": "^1.5.0",
     "typescript": "^5.1.6",
     "web-vitals": "^2.1.4"
   },
@@ -55,5 +58,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/redux-logger": "^3.0.9"
   }
 }
