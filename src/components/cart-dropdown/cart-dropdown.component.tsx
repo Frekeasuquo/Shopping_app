@@ -4,7 +4,7 @@ import { selectCartItems } from '../../store/cart/cart.selector';
 
 import Button from '../button/button.component'
 
-import { DropdownContainer, CartItems, EmptyMessage } from './cart-dropdown.styles.jsx';
+import { DropdownContainer, CartItems, EmptyMessage } from './cart-dropdown.styles';
 
 import CartItem from '../cart-item/cart-item.component';
 
