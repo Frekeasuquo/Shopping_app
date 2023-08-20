@@ -1,4 +1,4 @@
-import { useEffect} from "react";
+import { useEffect, lazy, Suspense} from "react";
 
 import { useDispatch } from "react-redux";
 import { Routes, Route} from 'react-router-dom'
