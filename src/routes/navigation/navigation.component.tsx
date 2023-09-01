@@ -31,7 +31,7 @@ const Navigation = () => {
                             // the as keyword allows us to pass a string or base html you want it to be render as
                             <NavLink as='span' onClick={signOutUser}>SIGN OUT</NavLink>
                         ) : (
-                            <NavLink className="nav-link" to='/auth'> SING IN</NavLink>
+                            <NavLink className="nav-link" to='/auth'> SIGN IN</NavLink>
                     )}
                     <CartIcon />
                 </NavLinks>
