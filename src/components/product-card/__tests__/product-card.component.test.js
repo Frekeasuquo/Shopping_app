@@ -21,6 +21,7 @@ describe('Product Card tests', () => {
         });
 
         const addToCartButtonElement = screen.getByText(/add to cart/i)
+        
         await fireEvent.click(addToCartButtonElement)
         // console.log(store.getState().cart.cartItems)
         expect(store.getState().cart.cartItems.length).toBe(1)
